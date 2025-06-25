@@ -5,8 +5,8 @@
     "license": "Apache-2.0",
     "autoload": {
         "psr-4": {
-            "laravelLara\\lskllc\\": "src/",
-            "laravelLara\\lskllc\\Console\\Commands\\": "src/Files"
+            "laravelLara\\lskwhd\\": "src/",
+            "laravelLara\\lskwhd\\Console\\Commands\\": "src/Files"
         },
         "files": [
             "src/utils/Undertaking.php"
