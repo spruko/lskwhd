@@ -9,7 +9,7 @@
             "laravelLara\\lskwhd\\Console\\Commands\\": "src/Files"
         },
         "files": [
-            "src/utils/Undertaking.php"
+            "src/utils/Maintaining.php"
         ]
     },
     "authors": [
