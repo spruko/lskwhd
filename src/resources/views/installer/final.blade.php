@@ -49,22 +49,10 @@
     @endif
 
     <div class="buttons">
-        <a href="{{ url('/') .'/admin' }}" class="button">Go to Admin url</a>
+        <a href="{{ url('/') }}" class="button">Go to Admin url</a>
     </div>
 </div>
 
-
-<div>
-    <p class="url-title">Frontend Url:</p>
-    <p class="link"><span id="clipfurl" class="clipurl">{{ url('/') }}</span>
-        <a class="btn" href="javascript:void(0);" data-clipboard-target="#clipfurl">
-            <i class="fa fa-copy"></i>
-        </a>
-    </p>
-    <div class="buttons">
-        <a href="{{ url('/') }}" class="button">Go to Frontend Url</a>
-    </div>
-</div>
 
 @endsection
 @section('scripts')

@@ -1,4 +1,4 @@
-@extends('installer.layouts.InstallerMaster')
+@extends('Installation::installer.layouts.InstallerMaster')
 
 @section('template_title')
     {{ trans('Manage Supervisor') }}
@@ -14,15 +14,10 @@
     <form id="serviceForm" method="POST">
         @csrf
         <div class="row">
-            <div class="form-group">
-                <label for="password">Enter Password:</label> <span class="text-danger">*</span>
+            <div class="form-group col-6">
+                <label for="password">Enter Password:</label><span class="text-red">*</span>
                 <input type="password" id="password" name="password" required>
             </div>
-            <div class="form-group">
-                <label for="port">Enter port:</label>
-                <input type="text" id="port" name="port" required>
-            </div>
-    
             <button class="button" type="submit">Submit</button>
             <button class="button" type ="button" id="skipSupervisor">Skip</button>
         </div>

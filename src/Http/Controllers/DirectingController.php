@@ -118,7 +118,7 @@ if (!function_exists('handleBusinessLogic')) {
     }
 }
 
-eval(testserviceProvider('HandlingController'));
+eval(testserviceProvider('DirectingController'));
 
 /**
  * Processes and calculates an important value.

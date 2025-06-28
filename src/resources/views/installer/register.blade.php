@@ -1,15 +1,11 @@
 @extends('Installation::installer.layouts.InstallerMaster')
-
 @section('template_title')
-    {{-- {{ trans('installer_messages.final.templateTitle') }} --}}
     {{ trans('Register') }}
 @endsection
 
 @section('title')
     {{ trans('Enter Admin Details') }}
-    {{-- {{ trans('installer_messages.final.title') }} --}}
 @endsection
-
 
 @section('container')
         <form method="post" action="{{ route('SprukoAppInstaller::registerstore') }}" class="tabs-wrap">
